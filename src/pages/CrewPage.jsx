@@ -1,12 +1,16 @@
 import Header from "../components/Header";
 import Slider from "../components/Swiper";
+import tablet from "../assets/Crew/tablet.jpg";
+import desktop from "../assets/Crew/desktop.jpg";
 
 function CrewPage() {
   return (
     <div
-      className="contain 
-    bg-[url('./src/assets/Crew/tablet.jpg')] 
-    desktop:bg-[url('./src/assets/Crew/desktop.jpg')]"
+      className={`
+    contain 
+    bg-[url('.${tablet}')] 
+    desktop:bg-[url('.${desktop}')]
+    `}
     >
       <div className="relative z-10">
         <Header />

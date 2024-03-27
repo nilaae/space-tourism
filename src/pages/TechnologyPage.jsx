@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { data } from "../../data";
 import Header from "../components/Header";
 import Technology from "../components/Technology";
-import { data } from "../../data";
+import tablet from "../assets/Technology/tablet.jpg";
+import desktop from "../assets/Technology/desktop.jpg";
+
 function TechnologyPage() {
   const [selectedTech, setSelectedTech] = useState(0);
 
@@ -9,9 +12,11 @@ function TechnologyPage() {
 
   return (
     <div
-      className="contain 
-    bg-[url('./src/assets/Technology/tablet.jpg')] 
-    desktop:bg-[url('./src/assets/Technology/desktop.jpg')]"
+      className={`
+    contain 
+    bg-[url('.${tablet}')] 
+    desktop:bg-[url('.${desktop}')]
+    `}
     >
       <Header />
       <div>

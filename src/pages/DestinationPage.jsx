@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { data } from "../../data";
 import Header from "../components/Header";
 import Destination from "../components/Destination";
-import { data } from "../../data";
+import desktop from "../assets/Destination/desktop.jpg";
+import tablet from "../assets/Destination/tablet.jpg";
 
 function DestinationPage() {
   const [selectedMoon, setSelectedMoon] = useState(0);
@@ -12,9 +14,11 @@ function DestinationPage() {
 
   return (
     <div
-      className="contain 
-    bg-[url('./src/assets/Destination/tablet.jpg')] 
-    desktop:bg-[url('./src/assets/Destination/desktop.jpg')]"
+      className={`
+    contain 
+    bg-[url('.${tablet}')] 
+    desktop:bg-[url('.${desktop}')] 
+    `}
     >
       <Header />
       <div>
