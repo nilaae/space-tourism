@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![alt text](./src/assets/Screenshots/1.png)
+![alt text](./src/assets/Screenshots/1.png?raw=true)
 ![alt text](./src/assets/Screenshots/2.png)
 ![alt text](./src/assets/Screenshots/3.png)
 ![alt text](./src/assets/Screenshots/4.png)
