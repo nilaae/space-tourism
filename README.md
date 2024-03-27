@@ -21,14 +21,6 @@ Users should be able to:
 - Swipe to navigate the Crew page on devices
 - View pages and be able to toggle between tabs
 
-### Screenshot
-
-![alt text](./src/assets/Screenshots/1.png?raw=true)
-![alt text](./src/assets/Screenshots/2.png)
-![alt text](./src/assets/Screenshots/3.png)
-![alt text](./src/assets/Screenshots/4.png)
-![alt text](./src/assets/Screenshots/5.png)
-
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
