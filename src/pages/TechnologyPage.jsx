@@ -8,7 +8,11 @@ function TechnologyPage() {
   const tech = data.teches.map((t) => (t.id === selectedTech ? t : null));
 
   return (
-    <div className="contain bg-tech-table desktop:bg-tech-desktop">
+    <div
+      className="contain 
+    bg-[url('./src/assets/Technology/tablet.jpg')] 
+    desktop:bg-[url('./src/assets/Technology/desktop.jpg')]"
+    >
       <Header />
       <div>
         <div className="main font-Barlow desktop:py-10 desktop:ml-28 desktop:items-start">

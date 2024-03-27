@@ -3,7 +3,11 @@ import Slider from "../components/Swiper";
 
 function CrewPage() {
   return (
-    <div className="contain bg-crew-table  desktop:bg-crew-desktop">
+    <div
+      className="contain 
+    bg-[url('./src/assets/Crew/tablet.jpg')] 
+    desktop:bg-[url('./src/assets/Crew/desktop.jpg')]"
+    >
       <div className="relative z-10">
         <Header />
       </div>

@@ -11,7 +11,11 @@ function DestinationPage() {
   );
 
   return (
-    <div className="contain bg-destination-table desktop:bg-destination-desktop">
+    <div
+      className="contain 
+    bg-[url('./src/assets/Destination/tablet.jpg')] 
+    desktop:bg-[url('./src/assets/Destination/desktop.jpg')]"
+    >
       <Header />
       <div>
         <div className="main p-8 text-center font-Barlow desktop:flex desktop:flex-row desktop:justify-around desktop:mt-10 ">

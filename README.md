@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![alt text](1.png)
-![alt text](2.png)
-![alt text](3.png)
-![alt text](4.png)
-![alt text](5.png)
+![alt text](./src/assets/Screenshots/1.png)
+![alt text](./src/assets/Screenshots/2.png)
+![alt text](./src/assets/Screenshots/3.png)
+![alt text](./src/assets/Screenshots/4.png)
+![alt text](./src/assets/Screenshots/5.png)
 
 ### Links
 

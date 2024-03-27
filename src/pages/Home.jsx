@@ -1,8 +1,13 @@
 import Header from "../components/Header";
 import Link from "../components/Link";
+
 function Home() {
   return (
-    <div className="contain bg-home-table desktop:bg-home-desktop">
+    <div
+      className="contain
+     bg-[url('./src/assets/Home/tablet.jpg')] 
+     desktop:bg-[url('./src/assets/Home/desktop.jpg')] "
+    >
       <Header />
 
       <div className="flex flex-col p-8 text-center font-Barlow desktop:flex-row desktop:justify-around desktop:mt-24 pb-32">

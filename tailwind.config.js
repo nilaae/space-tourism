@@ -8,18 +8,7 @@ export default {
         "clr-light": "#D2D8F9",
         "clr-menu": "#ffffff14",
       },
-      backgroundImage: {
-        "home-table": "url('./src/assets/Home/background-home-tablet.jpg')",
-        "home-desktop": "url('./src/assets/Home/background-home-desktop.jpg')",
-        "destination-table":
-          "url('./src/assets/Destination/background-destination-tablet.jpg')",
-        "destination-desktop":
-          "url('./src/assets/Destination/background-destination-desktop.jpg')",
-        "crew-table": "url('./src/assets/Crew/background-crew-tablet.jpg')",
-        "crew-desktop": "url('./src/assets/Crew/background-crew-desktop.jpg')",
-        "tech-table": "url('./src/assets/Technology/technology-tablet.jpg')",
-        "tech-desktop": "url('./src/assets/Technology/technology-desktop.jpg')",
-      },
+
       fontFamily: {
         bellefair: ["Bellefair"],
         Barlow: ["Barlow Condensed"],
