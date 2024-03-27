@@ -1,16 +1,11 @@
 import Header from "../components/Header";
 import Link from "../components/Link";
-import desktop from "../assets/Home/desktop.jpg";
-import tablet from "../assets/Home/tablet.jpg";
 
 function Home() {
   return (
     <div
-      className={`
-     contain
-     bg-[url('.${tablet}')] 
-     desktop:bg-[url('.${desktop}')] 
-     `}
+      className="
+     contain bg-tabletH desktop:bg-desktopH "
     >
       <Header />
 

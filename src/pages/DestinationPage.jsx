@@ -2,8 +2,6 @@ import { useState } from "react";
 import { data } from "../../data";
 import Header from "../components/Header";
 import Destination from "../components/Destination";
-import desktop from "../assets/Destination/desktop.jpg";
-import tablet from "../assets/Destination/tablet.jpg";
 
 function DestinationPage() {
   const [selectedMoon, setSelectedMoon] = useState(0);
@@ -13,13 +11,7 @@ function DestinationPage() {
   );
 
   return (
-    <div
-      className={`
-    contain 
-    bg-[url('.${tablet}')] 
-    desktop:bg-[url('.${desktop}')] 
-    `}
-    >
+    <div className="contain bg-tabletD desktop:bg-desktopD">
       <Header />
       <div>
         <div className="main p-8 text-center font-Barlow desktop:flex desktop:flex-row desktop:justify-around desktop:mt-10 ">

@@ -1,17 +1,9 @@
 import Header from "../components/Header";
 import Slider from "../components/Swiper";
-import tablet from "../assets/Crew/tablet.jpg";
-import desktop from "../assets/Crew/desktop.jpg";
 
 function CrewPage() {
   return (
-    <div
-      className={`
-    contain 
-    bg-[url('.${tablet}')] 
-    desktop:bg-[url('.${desktop}')]
-    `}
-    >
+    <div className="contain bg-tabletC desktop:bg-C">
       <div className="relative z-10">
         <Header />
       </div>

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -7,6 +8,16 @@ export default {
         "clr-dark": "#0C0E18",
         "clr-light": "#D2D8F9",
         "clr-menu": "#ffffff14",
+      },
+      backgroundImage: {
+        tabletH: "url(/src/assets/Home/tablet.jpg)",
+        desktopH: "url(/src/assets/Home/desktop.jpg)",
+        tabletD: "url(/src/assets/Destination/tablet.jpg)",
+        desktopD: "url(/src/assets/Destination/desktop.jpg)",
+        tabletC: "url(/src/assets/Crew/tablet.jpg)",
+        desktopC: "url(/src/assets/Crew/desktop.jpg)",
+        tabletT: "url(/src/assets/Technology/tablet.jpg)",
+        desktopT: "url(/src/assets/Technology/desktop.jpg)",
       },
 
       fontFamily: {
